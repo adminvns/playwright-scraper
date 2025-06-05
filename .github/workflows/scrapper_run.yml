@@ -23,7 +23,7 @@ jobs:
 
     - name: Run scraper
       run: |
-        python your_script.py
+        python scrape.py
 
     - name: Zip output
       run: zip -r levi_output.zip levi_products.json
